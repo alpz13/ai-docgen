@@ -1,7 +1,7 @@
 import OpenAI from 'openai';
 import fs from 'fs';
 import path from 'path';
-import { CONFIG } from '../config.js';
+import { CONFIG } from '../config';
 
 const client = new OpenAI({ apiKey: CONFIG.OPENAI_API_KEY });
 

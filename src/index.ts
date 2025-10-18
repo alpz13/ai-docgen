@@ -1,5 +1,5 @@
-import { CONFIG } from './config.js';
-import { getGitCommits } from './ingestors/gitIngestor.js';
+import { CONFIG } from './config';
+import { getGitCommits } from './ingestors/gitIngestor';
 import { generateDocumentation } from './ai/docGenerator';
 
 async function main() {
